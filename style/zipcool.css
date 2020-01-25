@@ -1,0 +1,12 @@
+p {
+    padding: 1px;
+    margin: 0px;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+#print-area > p:first-child {
+    border-top: none;
+}
+#print-area > p:last-child {
+    border-top: none;
+}
